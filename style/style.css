@@ -1,0 +1,86 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    height: 100dvb;
+    width: 100dvw;
+}
+
+body{
+    background-color: rgb(37, 41, 82);
+    height: 100%;
+
+
+}
+
+main{
+    display: grid;
+    grid-template:  3fr 1fr 1fr 1fr 1fr 1fr / 1fr ;
+    place-items:center;
+    height: 100%;
+}
+
+#logo{
+    height: 80%;
+    width: 70%;
+}
+
+.etiqueta{
+    text-decoration: none;
+    font-family: 'Anonymous Pro', monospace;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.etiqueta img{
+    height: 40px;
+    width: 40px;
+}
+
+.patreon{
+    color: #EC6857;
+    background-color: white;
+}
+
+.youtube{
+    color: white;
+    background-color: #e30613;
+}
+
+.cafecito{
+    color: white;
+    background-color: #96B0D6;
+}
+
+
+.github{
+    color: black;
+    background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+
+    body{
+        display: grid;
+        place-items: center;
+    }
+
+    main{
+        grid-template:  1fr 1fr / 1fr 1fr 1fr 1fr ;
+        height: 60%;
+        width: 50%;
+    }
+
+    #logo{
+
+        grid-column: 1 / 5;
+    }
+}
