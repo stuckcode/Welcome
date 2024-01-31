@@ -24,8 +24,9 @@ main{
 }
 
 #logo{
-    height: 80%;
+
     width: 70%;
+
 }
 
 .etiqueta{
@@ -41,29 +42,25 @@ main{
 
 
 .etiqueta img{
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
 }
 
 .patreon{
-    color: #EC6857;
-    background-color: white;
+    background-color: #EC6857;
 }
 
 .youtube{
-    color: white;
-    background-color: #e30613;
+    background-color: white;
 }
 
 .cafecito{
-    color: white;
-    background-color: #96B0D6;
+    background-color: white;
 }
 
 
 .github{
-    color: black;
-    background-color: white;
+    background-color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,12 +72,11 @@ main{
 
     main{
         grid-template:  1fr 1fr / 1fr 1fr 1fr 1fr ;
-        height: 60%;
+        height: 80%;
         width: 50%;
     }
 
     #logo{
-
         grid-column: 1 / 5;
     }
 }
